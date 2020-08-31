@@ -1,0 +1,123 @@
+body {
+  margin: 0px;
+  padding: auto 80px;
+}
+h1:hover {
+  transform: scale3d(100px);
+}
+/* gradient backgorund */
+.top-section,
+#about {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 1000% 1000%;
+  animation: gradient 10s ease-in-out infinite;
+  text-align: center;
+  padding: 40px 80px;
+  font-weight: 100px;
+  height: 800px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+/* heading */
+.heading {
+  font-family: "Pacifico", cursive;
+  font-weight: 100;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* hr */
+hr {
+  width: 25%;
+  padding: 5px;
+  border-top: 5px solid;
+}
+
+/* card */
+
+.card {
+  border-radius: 0px;
+}
+.card:hover {
+  position: none;
+  transform: scale(1.05);
+  z-index: 10;
+  background-color: #292b2c;
+  transition: 1000ms;
+}
+
+/* navbar */
+
+.navbar-brand {
+  font-weight: 900;
+  font-family: "Cinzel Decorative", cursive;
+  animation: gradient 15s ease infinite;
+}
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+.nav-item {
+  padding-left: 30px;
+}
+/* item section */
+#items {
+  margin: 100px auto;
+}
+
+/* footer section */
+
+.copyright-section {
+  text-align: center;
+  margin: 100px auto 0px;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+.social-icon:hover {
+  margin: 20px 10px;
+  transform: scale(1.2);
+  transition: 100ms;
+}
+
+footer .navbar-brand {
+  font-weight: 400px;
+  font-family: "Cinzel Decorative", cursive;
+  animation: gradient 15s ease infinite;
+  padding-left: 10px;
+}
+
+/* about section */
+
+#about {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: thin;
+  padding-bottom:80px ;
+}
+#about .logo {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 400px;
+}
+#about .navbar-brand {
+  font-weight: 900;
+  font-family: "Cinzel Decorative", cursive;
+  animation: gradient 15s ease infinite;
+}
+/* logo */
+
+.logo {
+  text-align: left;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  transition: 1000ms;
+}
